@@ -1,0 +1,159 @@
+Q1
+Each class you create becomes a new ____ that can be used to declare variables and create objects.
+a.    package
+b.    instance
+c.    library
+d.    type.
+ANSWER: d
+
+Q2
+You can declare new classes as needed; this is one reason Java is known as a(n) ____ language.
+a.    portable
+b.    incremental
+c.    extensible
+d.    virtual
+ANSWER: c
+
+Q3
+Which of the following statements is false?
+a.    Each class declaration that begins with the access modifier private must be stored in a file that has the same name as the class and ends with the .java filename extension.
+b.    Every class declaration contains keyword class followed immediately by the class�s name.
+c.    Class, method and variable names are identifiers.
+d.    An object has attributes that are implemented as instance variables and carried with it throughout its lifetime.
+ANSWER: a
+
+Q4
+Which of the following statements is false?
+a.    By convention class names begin with an uppercase letter, and method and variable names begin with a lowercase letter.
+b.    Instance variables exist before methods are called on an object, while the methods are executing and after the methods complete execution.
+c.    A class normally contains one or more methods that manipulate the instance variables that belong to particular objects of the class.
+d.    Instance variables can be declared anywhere inside a class.
+ANSWER: d
+
+Q5
+Which of the following statements is true?
+a.    Each object (instance) of the class shares the class�s instance variables.
+b.    Most instance-variable declarations are preceded with the keyword public, which is an access modifier.
+c.    Variables or methods declared with access modifier private are accessible only to methods of the class in which they�re declared.
+d.    None of the above is true.
+ANSWER: c
+
+Q6
+When a method terminates, the values of its local variables are ____.
+a.    saved
+b.    copied
+c.    restored
+d.    lost
+ANSWER: d
+
+Q7
+Which of the following statements is false?
+a.    Variables declared in the body of a particular method are local variables and can be used only in that method.
+b.    A method�s parameters are local variables of the method.
+c.    Every method�s body is delimited by left and right braces ({ and }).
+d.    Keyword null indicates that a method will perform a task but will not return any information.
+ANSWER: d
+
+Q8
+Which of the following statements is false?
+a.    The method�s return type specifies the type of data returned to a method�s caller.
+b.    Empty parentheses following a method name indicate that the method does not require any parameters to perform its task.
+c.    When a method that specifies a return type other than void is called and completes its task, the method must return a result to its calling method
+d.    Classes often provide public methods to allow the class�s clients to set or get private instance variables; the names of these methods must begin with set or get.
+ANSWER: d
+
+Q9
+A class that creates an object of another class, then calls the object�s methods, is called a(n) ____ class.
+a.    object-oriented
+b.    inherited
+c.    caller
+d.    driver.
+ANSWER: d
+
+Q10
+Which of the following statements is false?
+a.    Scanner method next reads characters until any white-space character is encountered, then returns the characters as a String.
+b.    To call a method of an object, follow the object name with a comma, the method name and a set of parentheses containing the method�s arguments.
+c.    A class instance creation expression begins with keyword new and creates a new object.
+d.    A constructor is similar to a method but is called implicitly by the new operator to initialize an object�s instance variables at the time the object is created.
+ANSWER: b
+
+Q11
+Which of the following statements is true?
+a.    Local variables are automatically initialized.
+b.    Every instance variable has a default initial value�a value provided by Java when you do not specify the instance variable�s initial value.
+c.    The default value for an instance variable of type String is void.
+d.    The argument types in the method call must be identical to the types of the corresponding parameters in the method�s declaration.
+ANSWER: b
+
+Q12
+Which of the following statements is false?
+a.    The javac command can compile multiple classes at once; simply list the source-code filenames after the command with each filename separated by a comma from the next.
+b.    If the directory containing the app includes only one app�s files, you can compile all of its classes with the command javac *.java.
+c.    The asterisk (*) in javac *.java indicates that all files in the current directory ending with the filename extension �.java� should be compiled.
+d.    All of the above are true.
+ANSWER: a
+
+Q13
+Which of the following statements is false?
+a.    In the UML, each class is modeled in a class diagram as a rectangle with three compartments. The top one contains the class�s name centered horizontally in boldface. The middle one contains the class�s attributes, which correspond to instance variables in Java. The bottom one contains the class�s operations, which correspond to methods and constructors in Java.
+b.    UML represents instance variables as an attribute name, followed by a colon and the type.
+c.    Private attributes are preceded by the keyword private in the UML.
+d.    The UML models operations by listing the operation name followed by a set of parentheses. A plus sign (+) in front of the operation name indicates that the operation is a public.
+ANSWER: c
+
+Q14
+Which of the following statements is true?
+a.    The UML models a parameter of an operation by listing the parameter name, followed by a colon and the parameter value between the parentheses after the operation name.
+b.    The UML indicates an operation�s return type by placing a colon and the return value after the parentheses following the operation name.
+c.    UML class diagrams do not specify return types for operations that do not return values.
+d.    Declaring instance variables public is known as data hiding or information hiding.
+ANSWER: c
+
+Q15
+You must call most methods other than ____ explicitly to tell them to perform their tasks.
+a.    public methods
+b.    main
+c.    static methods
+d.    private methods
+ANSWER: b
+
+Q16
+A key part of enabling the JVM to locate and call method main to begin the app�s execution is the ____ keyword, which is the starting point of the app.
+a.    void
+b.    main
+c.    public
+d.    static
+ANSWER: d
+
+Q17
+Which of the following statements is false?
+a.    Variables in a Java app can be named anything you choose, with the following exceptions: true, false, null, if, else, switch, case, default, while, do, for, break, continue, return, this, super, public, protected, private, final, new, static, class, void, const, goto, implements, import, instanceof, interface, package, boolean, byte, char, short, int, long, float, double.
+b.    Java is case sensitive�the uppercase letters A through Z are considered different from the lowercase letters a through z.
+c.    The names of variables must begin with a letter or an underscore (_) and can be followed by any combination of letters, digits and underscores.
+d.    The names of variables cannot begin with a digit.
+ANSWER: a
+
+Q18
+Which of the following statements is true?
+a.    The = operator is called the assignment operator.
+b.    The expression total += 4; is equivalent to total = total + 4;.
+c.    Both of the above are true.
+d.    Neither of the above is true.
+ANSWER: c
+
+Q19
+Which of the following statements is true?
+a.    The expression x %= 5; is equivalent to x = x % 5;.
+b.    The remainder operator (%) can be used only with integers.
+c.    Both of the above are true.
+d.    Neither of the above is true.
+ANSWER: a
+
+Q20
+Which of the following statements is true?
+a.    The ++ operator is a unary operator, which means that it requires one operand.
+b.    The -- operator decreases a variable by 1.
+c.    Both of the above are true.
+d.    Neither of the above is true.
+ANSWER: c
